@@ -1,3 +1,29 @@
-body{
+* {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #4b4b4b;
+}
+
+.accent {
+  color: #875997;
+}
+
+.primary {
+  color: #CD9FDF;
+}
+
+.secondary {
+  color: #140D16;
+}
+
+.fundo {
+  background-color: #060406;
 }

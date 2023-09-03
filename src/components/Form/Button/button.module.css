@@ -1,0 +1,23 @@
+.button {
+  background-color: #CD9FDF;
+  color: #FBF9FB;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 15px #CD9FDF;
+}
+
+.button:active {
+  box-shadow: 0 0 0;
+}
+
+div>h1 {
+  margin-bottom: 20px;
+}
