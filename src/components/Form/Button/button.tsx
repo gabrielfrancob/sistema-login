@@ -1,9 +1,19 @@
 import styles from "./button.module.css";
 
-export default function Button({ value }: { value: string }) {
+type ButtonProps = {
+  value: string;
+  onSubmitEvent: any;
+};
+
+export default function Button({ value, onSubmitEvent }: ButtonProps) {
   return (
     <>
-      <input type="button" value={value} className={styles.button} />
+      <input
+        type="submit"
+        value={value}
+        className={styles.button}
+        onClick={onSubmitEvent}
+      />
     </>
   );
 }
