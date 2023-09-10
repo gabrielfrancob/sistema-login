@@ -18,6 +18,14 @@
   box-shadow: 0 0 0;
 }
 
+.button:disabled,
+.button:disabled:hover {
+  background-color: #bfbfbf;
+  box-shadow: none;
+  cursor: default;
+}
+
+
 div>h1 {
   margin-bottom: 20px;
 }
